@@ -5,10 +5,12 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "@sailshq/lodash": "^3.10.3",
+    "db-migrate": "^0.11.4",
+    "db-migrate-mysql": "^1.1.10",
     "sails": "^1.1.0",
     "sails-hook-orm": "^2.1.1",
-    "sails-hook-sockets": "^1.5.5",
-    "@sailshq/lodash": "^3.10.3"
+    "sails-hook-sockets": "^1.5.5"
   },
   "devDependencies": {
     "@sailshq/eslint": "^4.19.3"
