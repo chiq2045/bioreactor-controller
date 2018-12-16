@@ -32,7 +32,7 @@ module.exports = {
     
     emailExists: {
       description: 'The email is already connected to an existing user',
-      statusCode: 409,
+      responseType: 'emailExists',
     },
 
     // invalid: {
