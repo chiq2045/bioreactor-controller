@@ -10,6 +10,7 @@
     "db-migrate-mysql": "^1.1.10",
     "dotenv": "^6.2.0",
     "sails": "^1.1.0",
+    "sails-hook-organics": "^0.15.1",
     "sails-hook-orm": "^2.1.1",
     "sails-hook-sockets": "^1.5.5",
     "sails-mysql": "^1.0.1"
