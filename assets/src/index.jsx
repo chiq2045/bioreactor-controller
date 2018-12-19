@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 const App = () => {
   return (
-    <div>
+    <div class='wrapper'>
       Simple Sails-React starter
     </div>
   );

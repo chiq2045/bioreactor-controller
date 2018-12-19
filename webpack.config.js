@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    entry: './assets/src/index.js'
+    entry: './assets/src/index.jsx'
   },
   output: {
     path: __dirname + '/.tmp/public',
@@ -12,7 +12,7 @@ module.exports = {
     rules: [
       {
         use: 'babel-loader',
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/
       },
       {
