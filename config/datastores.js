@@ -53,5 +53,26 @@ module.exports.datastores = {
 
   },
 
+  test: {
+
+    /***************************************************************************
+    *                                                                          *
+    * Want to use a different database during development?                     *
+    *                                                                          *
+    * 1. Choose an adapter:                                                    *
+    *    https://sailsjs.com/plugins/databases                                 *
+    *                                                                          *
+    * 2. Install it as a dependency of your Sails app.                         *
+    *    (For example:  npm install sails-mysql --save)                        *
+    *                                                                          *
+    * 3. Then pass it in, along with a connection URL.                         *
+    *    (See https://sailsjs.com/config/datastores for help.)                 *
+    *                                                                          *
+    ***************************************************************************/
+    adapter: 'sails-mysql',
+    url: `mysql://${process.env.MYSQL_USER}:${process.env.MYSQL_PASSWORD}@${process.env.MYSQL_HOST}:${process.env.MYSQL_PORT}/${process.env.MYSQL_TEST_DATABASE}`
+
+  },
+
 
 };
