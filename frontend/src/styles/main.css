@@ -30,45 +30,45 @@
   background-color: aliceblue;
 }
 
-#app > header {
+#app > menu {
   grid-area: head;
-  background-color: #8ca0ff;
 }
 
 #app > nav {
   grid-area: nav;
   background-color: #ffa08c;
-  grid-template-rows: 5em auto;
-  grid-template-areas:
-    "links"
-    "runs";
 }
 
-#app > nav > ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #333;
+#app > menu > button {
+  border: 2px solid blue;
+  color: black;
+  background-color: white;
+  border-radius: 10%;
+  font-size: 30px;
 }
 
-#app > nav > li {
+/* #app > menu > li {
   float: left;
 }
 
-#app > nav > li:hover {
+#app > menu > li:hover {
   background-color: #444;
 }
 
-#app > nav > .active {
+#app > menu > li:hover:not(.active) {
+  background-color: #111;
+}
+
+#app > menu > .active {
   background-color: salmon;
 }
 
-#app > nav > li a {
+#app > menu > li a {
   display: block;
-  width: 60px;
-  padding: 14px 16px;
   text-align: center;
   color: white;
-}
+  text-decoration: none;
+} */
 
 #app > main {
   grid-area: main;

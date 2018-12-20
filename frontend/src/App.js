@@ -6,8 +6,15 @@ class App extends Component {
   render() {
     return (
       <section id="app">
-        <header>Header</header>
-        <nav>Nav</nav>
+        <menu>
+            <button><a href="#welcome">Home</a></button>
+            <button><a href="#runs">Runs</a></button>
+            <button><a href="#data">Data</a></button>
+            <button><a href="#profile">Profile</a></button>
+        </menu>
+        <nav>
+          Naigator
+        </nav>
         <main>main</main>
         <footer>footer</footer>
       </section>
