@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
 import './styles/main.css';
 // import { Header } from './components/header';
-
+import { Menu } from './components/menu'
+import { Main } from './components/main'
 class App extends Component {
   render() {
     return (
       <section id="app">
         <menu>
-            <button><a href="#welcome">Home</a></button>
-            <button><a href="#runs">Runs</a></button>
-            <button><a href="#data">Data</a></button>
-            <button><a href="#profile">Profile</a></button>
+          <Menu />
         </menu>
         <nav>
           Naigator
         </nav>
-        <main>main</main>
+        <main><Main /></main>
         <footer>footer</footer>
       </section>
     );

@@ -1,0 +1,17 @@
+menu > left-button {
+  float: left;
+  border: 2px solid blue;
+  color: black;
+  background-color: white;
+  border-radius: 10%;
+  font-size: 30px;
+}
+
+menu > right-button {
+  float: right;
+  border: 2px solid blue;
+  color: black;
+  background-color: white;
+  border-radius: 10%;
+  font-size: 30px;
+}

@@ -39,14 +39,6 @@
   background-color: #ffa08c;
 }
 
-#app > menu > button {
-  border: 2px solid blue;
-  color: black;
-  background-color: white;
-  border-radius: 10%;
-  font-size: 30px;
-}
-
 /* #app > menu > li {
   float: left;
 }
