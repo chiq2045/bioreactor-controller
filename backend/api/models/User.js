@@ -13,21 +13,11 @@ module.exports = {
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
 
-    fullName: {
-      type: 'string',
-      required: true,
-    },
+    fullName: { type: 'string' },
 
-    emailAddress: {
-      type: 'string',
-      required: true,
-      isEmail: true,
-    },
+    emailAddress: { type: 'string', isEmail: true },
 
-    password: {
-      type: 'string',
-      required: true,
-    },
+    password: { type: 'string' }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗

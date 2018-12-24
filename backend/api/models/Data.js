@@ -13,17 +13,11 @@ module.exports = {
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
 
-    ph: {
-      type: 'number',
-    },
+    ph: { type: 'number' },
 
-    co2: {
-      type: 'number',
-    },
+    co2: { type: 'number' },
 
-    temp: {
-      type: 'number',
-    },
+    temp: { type: 'number' }
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
