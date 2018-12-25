@@ -29,15 +29,9 @@ module.exports.http = {
     *                                                                          *
     ***************************************************************************/
 
-    // Any lines with // have been added for passport middleware configuration
-    passportInit:     require('passport').initialize(), //
-    passportSession:  require('passport').session(),    //
-
     order: [
       'cookieParser',
       'session',
-      'passportInit',     // 
-      'passportSession',  //
       'bodyParser',
       'compress',
       'poweredBy',
