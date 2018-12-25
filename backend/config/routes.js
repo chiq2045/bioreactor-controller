@@ -23,6 +23,10 @@ module.exports.routes = {
 
   // 'GET /data/create':  { action: 'data/create' },
 
+  'GET /login':     { view: 'login' },
+  'POST /login':    'AuthController.login',
+  '/logout':        'AuthController.logout',
+  'GET /register':  { view: 'register' },
 
   /***************************************************************************
   *                                                                          *
