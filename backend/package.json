@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "backend-1",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -9,15 +9,15 @@
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
     "ajv": "^6.6.2",
+    "db-migrate": "^0.11.4",
+    "db-migrate-mysql": "^1.1.10",
     "dotenv": "^6.2.0",
-    "grunt": "^1.0.3",
+    "grunt": "1.0.1",
     "sails": "^1.1.0",
-    "sails-disk": "^1.0.1",
     "sails-hook-grunt": "^3.1.0",
     "sails-hook-orm": "^2.1.1",
     "sails-hook-sockets": "^1.5.5",
-    "sails-mysql": "^1.0.1",
-    "underscore.string": "^3.3.5"
+    "sails-mysql": "^1.0.1"
   },
   "devDependencies": {
     "@sailshq/eslint": "^4.19.3"
@@ -31,7 +31,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/biotech/backend.git"
+    "url": "git://github.com/biotech/backend-1.git"
   },
   "author": "biotech",
   "license": "",
