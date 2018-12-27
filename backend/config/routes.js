@@ -21,7 +21,6 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
 
-  // 'GET /data/create':  { action: 'data/create' },
 
   /***************************************************************************
   *                                                                          *

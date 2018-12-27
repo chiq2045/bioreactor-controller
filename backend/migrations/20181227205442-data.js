@@ -16,17 +16,17 @@ exports.setup = function(options, seedLink) {
 
 exports.up = function(db) {
   return db.createTable('data', {
-    id: { type: 'int', primaryKey: true, autoIncrement: true },
+    id: {type: 'int', autoIncrement: true, primaryKey: true},
     ph: 'decimal',
     co2: 'decimal',
     temp: 'decimal',
     createdAt: 'int',
     updatedAt: 'int',
-  });
+  })
 };
 
-exports.down = function (db) {
-  return db.dropTable('data');
+exports.down = function(db) {
+  return db.dropTable('data')
 };
 
 exports._meta = {

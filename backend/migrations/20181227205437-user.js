@@ -14,19 +14,19 @@ exports.setup = function(options, seedLink) {
   seed = seedLink;
 };
 
-exports.up = function (db) {
-  return db.createTable('users', {
-    id: { type: 'int', primaryKey: true, autoIncrement: true },
+exports.up = function(db) {
+  return db.createTable('user', {
+    id: {type: 'int', autoIncrement: true, primaryKey: true},
     fullName: 'string',
-    emailAddress: { type: 'string', uniqueKey:true },
+    emailAddress: {type: 'string', uniqueKey: true},
     password: 'string',
-    createdAt: 'int',
-    updatedAt: 'int',
-  });
+    createdAt: 'string',
+    updatedAt: 'string',
+  })
 };
 
-exports.down = function (db) {
-  return db.dropTable('users');
+exports.down = function(db) {
+  return db.dropTable('user')
 };
 
 exports._meta = {
