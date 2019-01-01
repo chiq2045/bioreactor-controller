@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     dev: {
       files: [{
         cwd: './assets',
-        src: ['**/*.!(coffee|less)'],
+        src: ['**/*.!(coffee|less|jsx)'],
         dest: '.tmp/public'
       }]
     }
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
   //
   // ```
   // // Load Grunt plugin from the node_modules/ folder.
-  // grunt.loadNpmTasks('grunt-sync');
+  grunt.loadNpmTasks('grunt-sync');
   // ```
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
