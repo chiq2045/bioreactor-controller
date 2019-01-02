@@ -7,6 +7,7 @@ const APP_DIR = path.resolve(__dirname, '../../', 'assets/js');
 module.exports = function(grunt) {
   grunt.config.set('webpack', {
     dev: {
+      mode: 'development',
       context: BASE_DIR,
       entry: APP_DIR + '/index.jsx',
       output: {
