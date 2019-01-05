@@ -6,6 +6,7 @@
   "keywords": [],
   "dependencies": {
     "@material-ui/core": "^3.8.1",
+    "@material-ui/icons": "^3.0.1",
     "@sailshq/connect-redis": "^3.2.1",
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
@@ -21,7 +22,8 @@
     "sails-hook-grunt": "^3.1.0",
     "sails-hook-orm": "^2.1.1",
     "sails-hook-sockets": "^1.5.5",
-    "sails-mysql": "^1.0.1"
+    "sails-mysql": "^1.0.1",
+    "victory": "^31.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
