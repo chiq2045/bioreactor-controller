@@ -20,8 +20,8 @@ exports.up = function(db) {
     ph: 'decimal',
     co2: 'decimal',
     temp: 'decimal',
-    createdAt: 'int',
-    updatedAt: 'int',
+    createdAt: 'bigint',
+    updatedAt: 'bigint',
   })
 };
 

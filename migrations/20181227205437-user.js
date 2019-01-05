@@ -20,8 +20,8 @@ exports.up = function(db) {
     fullName: 'string',
     emailAddress: {type: 'string', uniqueKey: true},
     password: 'string',
-    createdAt: 'string',
-    updatedAt: 'string',
+    createdAt: 'bigint',
+    updatedAt: 'bigint',
   })
 };
 
