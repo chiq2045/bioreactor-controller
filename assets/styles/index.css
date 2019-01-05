@@ -1,0 +1,13 @@
+body, html {
+  margin: 0;
+  
+}
+
+.bg {
+  height:100%;
+  color: #444;
+  background-image: linear-gradient(to bottom right, #6db2ff, #cedcf8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
