@@ -19,8 +19,9 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  'GET /':      { view: 'pages/home' },
-  'GET /sails': { view: 'pages/homepage' },
+  'GET /':            { view: 'pages/home' },
+  'GET /sails':       { view: 'pages/homepage' },
+  'GET /data/recent': { action: 'data/recent' },
 
   /***************************************************************************
   *                                                                          *
@@ -33,5 +34,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
+  'POST /data/new':   { action: 'data/new' },
+  'POST /data/list':  { action: 'data/list' },
+  
 
 };
