@@ -4,3 +4,7 @@ tags
 #packages
 node_modules/
 package_lock.json
+
+#sectre stuff
+.env
+
