@@ -11,12 +11,24 @@
     "url": "git+https://github.com/chiq2045/bioreactor-controller.git"
   },
   "keywords": [
-    "bioreactor", "controller", "koa", "react", "real-time"
+    "bioreactor",
+    "controller",
+    "koa",
+    "react",
+    "real-time"
   ],
   "author": "Charles Oroko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chiq2045/bioreactor-controller/issues"
   },
-  "homepage": "https://github.com/chiq2045/bioreactor-controller#readme"
+  "homepage": "https://github.com/chiq2045/bioreactor-controller#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  }
 }
