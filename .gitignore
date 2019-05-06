@@ -5,6 +5,9 @@ tags
 node_modules/
 package_lock.json
 
-#sectre stuff
+#secret stuff
 .env
+
+#testing files
+test.js
 
