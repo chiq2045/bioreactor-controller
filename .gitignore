@@ -3,7 +3,10 @@ tags
 
 #packages
 node_modules/
-package_lock.json
+package-lock.json
+
+#build
+dist/
 
 #secret stuff
 .env
